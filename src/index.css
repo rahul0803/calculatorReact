@@ -1,13 +1,161 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1e1e1e;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  position: absolute;
+  width: 600px;
+  height: 144px;
+  left: 110px;
+  top: 129px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+}
+
+.box1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 290px;
+  height: 40px;
+  left: 198px;
+  top: 278px;
+  border: 2px solid #ffffff;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.box2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 290px;
+  height: 40px;
+  left: 198px;
+  top: 353px;
+  border: 2px solid #ffffff;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#add {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 200px;
+  top: 425px;
+  background: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+#sub {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 275px;
+  top: 425px;
+  background: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+#mul {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 350px;
+  top: 425px;
+  background: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+#div {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 425px;
+  top: 425px;
+  background: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+#result {
+  position: absolute;
+  width: 93px;
+  height: 29px;
+  left: 211px;
+  top: 504px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  display: none;
+}
+
+#outputMsg {
+  position: absolute;
+  width: 600px;
+  height: 144px;
+  left: 58px;
+  top: 579px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e33737;
+}
+
+#successMsg {
+  position: absolute;
+  width: 600px;
+  height: 144px;
+  left: 75px;
+  top: 599px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #47f558;
 }
